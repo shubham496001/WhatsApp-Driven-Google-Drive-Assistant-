@@ -7,27 +7,29 @@ A powerful automation tool built using **n8n**, allowing users to interact with 
 
 ## 📖 About
 
-I attempted to build this project as part of my personal automation learning journey.
+I built this project as a learning initiative to connect **WhatsApp**, **Google Drive**, and **OpenAI** using the **n8n** workflow automation tool.
 
-Despite several genuine efforts, I faced technical challenges during integration and execution — especially in synchronizing Twilio, Google Drive APIs, and OpenAI inside the n8n workflow. Although the project didn't reach full production success, it helped me understand:
+Despite my repeated efforts, I couldn't fully complete the project due to integration and debugging issues, especially involving API connections and file parsing across services.
 
-- How n8n workflows are built
-- API integration challenges (OAuth2, MIME-types, etc.)
-- Structuring automation pipelines with error handling
-- Building WhatsApp-command parsers
-- How real-world automation systems operate across multiple services
+However, I learned a lot about:
+- Building scalable and modular n8n workflows
+- Parsing WhatsApp messages into automation commands
+- Integrating OAuth2 flows in Google Cloud
+- Using conditional logic (Switch nodes) and safety layers in automation
 
-I've attached **images of my n8n workflow**, showcasing how the logic and connections were structured.
+I've attached images below showing how the workflow was designed and structured:
 
-> ⚠️ This project is an **incomplete attempt**, shared as part of my portfolio for transparency and learning documentation.
+### 🧩 Screenshots of Attempted Workflow
 
----
+| Google API Integration        | Full n8n Workflow                |
+|------------------------------|----------------------------------|
+screenshots are attached
 
-## 📸 Workflow Screenshots
+| Switch Rules Node |
+|-------------------|
 
-| WhatsApp to GDrive Flow | Google Drive Actions |
-|-------------------------|----------------------|
-| ![flow1](./docs/flow1.png) | ![flow2](./docs/flow2.png) |
+
+> 🧠 This project is included in my portfolio to demonstrate persistence, design planning, and hands-on technical growth — even when outcomes aren’t perfect.
 
 ---
 
@@ -169,8 +171,9 @@ CONFIRM DELETE /ProjectX/file.txt
 ├── whatsapp-gdrive-assistant-workflow.json
 ├── README.md
 └── docs/
-    ├── flow1.png
-    └── flow2.png
+    ├── connecting-api-in-google-cloud.png
+    ├── actual-workflow.png
+    └── switch-rules.png
 ```
 
 ---
@@ -198,14 +201,10 @@ This project is open source under the [MIT License](LICENSE).
 
 ---
 
-> ⭐️ Star this project if you found it useful or inspiring!
+> ⭐️ Star this project if you found it inspiring, educational, or relatable!
 
 ```
 
 ---
 
-Let me know if you'd like:
-- Help generating a placeholder `flow1.png` and `flow2.png` for the README
-- Me to zip up the entire structure so you can upload it directly to GitHub
-- Or a `.md` file you can copy directly into your local repo
-```
+
